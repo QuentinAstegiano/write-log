@@ -15,7 +15,7 @@ public class LogEntryManager {
     public final Map<String, LogEntry> map = new HashMap<>();
 
     public LogEntryManager() {
-        map.put("test", new LogEntry("test", "Une entrée de test", "Un contenu de test", LocalDate.now()));
+        map.put("test", new LogEntry("test", "Une entrÃ©e de test", "Un contenu de test", LocalDate.now()));
     }
 
     public Optional<LogEntry> get(String id) {

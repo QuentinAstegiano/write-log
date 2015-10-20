@@ -13,3 +13,8 @@ buildscript {
 repositories {
     jcenter()
 }
+
+dependencies {
+    compile 'com.github.spullara.mustache.java:compiler:0.9.1'
+    compile 'org.slf4j:slf4j-simple:1.7.12'
+}
